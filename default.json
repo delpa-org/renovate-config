@@ -13,12 +13,8 @@
       "matchUpdateTypes": ["major", "minor"]
     },
     {
-      "matchDatasources": ["npm"],
+      "description": "5 days minimum release age for all dependencies, to give some time to avoid unexpected breakage and supply chain attack",
       "minimumReleaseAge": "5 days"
-    },
-    {
-      "matchDatasources": ["node-version"],
-      "minimumReleaseAge": "10 days"
     }
   ],
   "vulnerabilityAlerts": {
